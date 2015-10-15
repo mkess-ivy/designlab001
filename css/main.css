@@ -10,12 +10,12 @@ body {
 }
 
 .height {
-	height: 1000px;
+	height: 700px;
 }
 
 .left-panel {
 	background: #4a4a4a;
-	width: 33%;
+	width: 30%;
 	float: left;
 }
 .left-panel-title {
@@ -27,12 +27,12 @@ body {
 		width: 55%;
 		margin: 0 auto;
 		text-align: center;
-		margin-top: 15%;
+		margin-top: 10%;
 	}
 
 .main-content {
 	background: #d8d8d8;
-	width: 64%;
+	width: 67%;
 	float: left;
 }
 
@@ -43,17 +43,69 @@ body {
 }
 
 .left-panel-articles {
-	margin-top: 30%;
+	margin-top: 10%;
 	/*background: red;*/
 	height: 200px;
+	/*width: 70%;*/
 }
 
 .left-panel-articles-title {
+    padding: 5% 0;
+    text-align: left;
+}
+
+.new-article {
+	/*padding-bottom: 2%;*/
+	/*padding-left: 8%;*/
+	padding: 0 10%;
+}
+
+.left-panel-articles-title:hover {
+	background: white;
+    color: black;
+    border-right: 3px solid black;
+}
+
+.left-panel-articles-title a {
 	color: white;
     font-size: 25px;
     font-weight: lighter;
     text-transform: uppercase;
-    padding-bottom: 10%;
-    width: 70%;
-    padding-left: 20%;
+    text-decoration: none;
+    /*padding: 10%;*/
+}
+
+.left-panel-articles-title a:hover {
+	background: white;
+	color: black;
+}
+
+.hero-section {
+	/*padding: 5%;*/
+	margin-top: 4%;
+}
+
+.hero-section-text {
+	font-size: 2em;
+	font-weight: 300;
+	padding: 0 7%;
+}
+
+.icon-container {
+	margin-top: 13%;
+	padding: 5% 0;
+	/*background: orange;*/
+}
+
+.icons-here {
+	text-align: center;
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+.social-position {
+	padding: 75px 0;
+	background: orange;
+	vertical-align: middle;
+	margin-top: 20vw;
 }
