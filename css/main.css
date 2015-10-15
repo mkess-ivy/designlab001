@@ -19,16 +19,16 @@ body {
 	float: left;
 }
 .left-panel-title {
-		font-size: 135px;
-		font-weight: lighter;
-		color: white;
-		border-top: 2px solid white;
-		border-bottom: 2px solid white;
-		width: 55%;
-		margin: 0 auto;
-		text-align: center;
-		margin-top: 10%;
-	}
+	font-size: 135px;
+	font-weight: lighter;
+	color: white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10%;
+}
 
 .main-content {
 	background: #d8d8d8;
@@ -44,9 +44,7 @@ body {
 
 .left-panel-articles {
 	margin-top: 10%;
-	/*background: red;*/
 	height: 200px;
-	/*width: 70%;*/
 }
 
 .left-panel-articles-title {
@@ -55,9 +53,7 @@ body {
 }
 
 .new-article {
-	/*padding-bottom: 2%;*/
-	/*padding-left: 8%;*/
-	padding: 0 10%;
+	padding: 0 9%;
 }
 
 .left-panel-articles-title:hover {
@@ -72,7 +68,6 @@ body {
     font-weight: lighter;
     text-transform: uppercase;
     text-decoration: none;
-    /*padding: 10%;*/
 }
 
 .left-panel-articles-title a:hover {
@@ -81,7 +76,6 @@ body {
 }
 
 .hero-section {
-	/*padding: 5%;*/
 	margin-top: 4%;
 }
 
@@ -94,7 +88,6 @@ body {
 .icon-container {
 	margin-top: 13%;
 	padding: 5% 0;
-	/*background: orange;*/
 }
 
 .icons-here {
@@ -105,7 +98,68 @@ body {
 
 .social-position {
 	padding: 75px 0;
-	background: orange;
 	vertical-align: middle;
 	margin-top: 20vw;
+	text-align: center;
+}
+
+.social-media {
+	display: block;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.footer-here {
+	padding: 1px 0;
+    background: #4a4a4a;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    bottom: 0px;
+}
+
+.menu-here {
+	position: absolute;
+	z-index: 3;
+	bottom: 1px;
+	right: 35%;
+	/*font-size: 3em;*/
+	padding: 0 10px;
+	background: #4a4a4a;
+}
+
+.hamburger {
+	text-decoration: none;
+	color: white;
+	font-size: 3em;
+}
+
+.menu {
+    display: none;
+    width: 100px;
+    text-align: center;
+    background: #4a4a4a;
+}
+
+.menu-body {
+    height: 75px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.menu-body li {
+	padding-bottom: 7px;
+}
+
+.menu-body a {
+    font-size: 1.0em;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.menu-body a:hover {
+    text-decoration: line-through;
+    width: 20%;
 }
