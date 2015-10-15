@@ -30,10 +30,16 @@ body {
 	margin-top: 10%;
 }
 
+.left-panel-title a {
+	text-decoration: none;
+	color: white;
+}
+
 .main-content {
-	background: #d8d8d8;
+	/*background: #d8d8d8;*/
 	width: 67%;
 	float: left;
+	/*height: 250px;*/
 }
 
 .social {
@@ -162,7 +168,47 @@ body {
     font-weight: lighter;
 }
 
-.menu-body a:hover {
+.menu-body a:hover,
+.main-content-author a:hover,
+.button a:hover
+ {
     text-decoration: line-through;
     width: 20%;
+}
+
+.main-content-title {
+	font-size: 3.2em;
+	font-weight: lighter;
+	width: 60%;
+	padding: 3% 0 0 3%;
+}
+
+.main-content-author {
+	font-size: 0.5em;
+}
+
+.main-content-author a {
+	text-decoration: none;
+	color: #4a4a4a;
+}
+
+.section-here {
+	height: 250px;
+	background: #d8d8d8;
+}
+
+.article-content {
+	padding: 10%;
+	line-height: 34px;
+}
+
+.button {
+	border: 2px solid black;
+	width: 15%;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
 }
