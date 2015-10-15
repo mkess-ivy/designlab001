@@ -59,7 +59,7 @@ body {
 .left-panel-articles-title:hover {
 	background: white;
     color: black;
-    border-right: 3px solid black;
+    border-right: 6px solid black;
 }
 
 .left-panel-articles-title a {
@@ -123,10 +123,11 @@ body {
 	position: absolute;
 	z-index: 3;
 	bottom: 1px;
-	right: 35%;
+	right: 30%;
 	/*font-size: 3em;*/
-	padding: 0 10px;
+	padding: 0 70px;
 	background: #4a4a4a;
+	box-shadow: 6px 6px 0 rgba(0,0,0,.1);
 }
 
 .hamburger {
@@ -137,7 +138,7 @@ body {
 
 .menu {
     display: none;
-    width: 100px;
+    width: 30px;
     text-align: center;
     background: #4a4a4a;
 }
@@ -146,6 +147,8 @@ body {
     height: 75px;
     list-style-type: none;
     margin-top: 0px;
+    padding-left: 0;
+    margin-left: -10px;
 }
 
 .menu-body li {
