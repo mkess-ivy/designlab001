@@ -1,5 +1,6 @@
-body {
+html, body {
 	font-family: 'Lato', sans-serif;
+	height: 100%;
 }
 .wrapper {
 	width: 1440px;
@@ -10,13 +11,14 @@ body {
 }
 
 .height {
-	height: 700px;
+	height: 100%;
 }
 
 .left-panel {
-	background: #4a4a4a;
+	background: #2841c0;
 	width: 30%;
 	float: left;
+	/*height: 100%;*/
 }
 .left-panel-title {
 	font-size: 135px;
@@ -46,6 +48,8 @@ body {
 	width: 3%;
 	float: left;
 	background: #4a4a4a;
+	padding: 21% 0;
+	height: 100%
 }
 
 .left-panel-articles {
@@ -63,7 +67,7 @@ body {
 }
 
 .left-panel-articles-title:hover {
-	background: white;
+	background: #d8d8d8;
     color: black;
     border-right: 6px solid black;
 }
@@ -103,9 +107,9 @@ body {
 }
 
 .social-position {
-	padding: 75px 0;
+	/*padding: 75px 0;*/
 	vertical-align: middle;
-	margin-top: 20vw;
+	/*margin-top: 20vw;*/
 	text-align: center;
 }
 
@@ -211,4 +215,24 @@ body {
 .button a {
 	text-decoration: none;
 	color: black;
+}
+
+@media screen and (max-width: 900px) {
+	.left-panel, .main-content, .social {
+		width: 100%;
+	}
+
+	.left-panel-articles-title {
+		padding: 3% 0;
+	}
+
+	.social {
+		height: 0;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.main-content-title {
+		font-size: 2.2em;
+	}
 }
